@@ -1,0 +1,16 @@
+# Suggested attributes to help with large binary files and 3D assets. Add Git LFS if you plan to store large STL/STEP/ZIP files.
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.step filter=lfs diff=lfs merge=lfs -text
+*.step.gz filter=lfs diff=lfs merge=lfs -text
+*.stpz filter=lfs diff=lfs merge=lfs -text
+*.iges filter=lfs diff=lfs merge=lfs -text
+*.igs filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.hex filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.svg text
